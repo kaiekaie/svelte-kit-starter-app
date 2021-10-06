@@ -30,7 +30,7 @@ jobs:
       - name: Install pnpm
         run: npm i -g pnpm
       - name: update packages
-        run: pnpm update
+        run: pnpm up --latest
       - name: Build
         run: pnpm build
       - uses: EndBug/add-and-commit@v7
