@@ -10,4 +10,4 @@ get:
 
 full PWA score in lighthouse:
 
-![Tux, the Linux mascot](/pwa.png)
+![Pwa score](/pwa.png)
