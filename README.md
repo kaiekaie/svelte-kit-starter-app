@@ -3,4 +3,4 @@
 Svelte-kit Starter pack with tailwind, postcss, typescript
 
 get:
-npx degit https://github.com/kaiekaie/svelte-starter-app foldername
+npx degit https://github.com/kaiekaie/svelte-kit-starter-app foldername
