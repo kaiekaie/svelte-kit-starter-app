@@ -3,7 +3,10 @@
 # Svelte-kit Starter pack with tailwind, postcss, typescript and PWA
 
 get:
+
 `npx degit https://github.com/kaiekaie/svelte-kit-starter-app foldername`
+
+`git clone https://github.com/kaiekaie/svelte-kit-starter-app foldername`
 
 full PWA score in lighthouse:
 
