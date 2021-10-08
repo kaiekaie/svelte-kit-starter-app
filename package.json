@@ -1,5 +1,8 @@
 {
-	"name": "fe",
+	"name": "svelte-kit-starter-app",
+	"author": {
+		"name": "kaiekaie"
+	},
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev --host",
