@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
 	mode: 'jit',
 	darkMode: 'media',
-	purge: ['./src/**/*.{html,js,svelte,ts}', './safelist.txt'],
+	change: ['./src/**/*.{html,js,svelte,ts}', './safelist.txt'],
 	plugins: [
 		plugin(function ({ addUtilities }) {
 			const newUtilities = {
