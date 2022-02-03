@@ -1,17 +1,17 @@
 // export async function getSession(request) {}
 
-export const handle = async ({ request, resolve }: Handler) => {
-	const headers = {};
+import type { MaybePromise } from '@sveltejs/kit/types/helper';
 
-	const response = await resolve(request);
+export const handle = async ({
+	event,
+	resolve
+}: {
+	event: RequestEvent;
+	resolve: (event: RequestEvent) => MaybePromise<Response>;
+}) => {
+	const response = await resolve(event);
 
-	return {
-		...response,
-		headers: {
-			...response.headers,
-			...headers
-		}
-	};
+	return response;
 };
 
 // export async function handleError({ error, request }) {

@@ -23,11 +23,8 @@ const svelteConfig = {
 				}
 			}
 		},
-		ssr: true,
-		hydrate: true,
-		hostHeader: 'X-Forwarded-Host',
-		adapter: node(),
-		target: '#svelte'
+
+		adapter: node()
 	}
 };
 
