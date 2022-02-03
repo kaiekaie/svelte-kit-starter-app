@@ -1,7 +1,7 @@
 {
-	"name": "Temprature Control",
-	"short_name": "TempCNT",
-	"description": "Control temprature of AC",
+	"name": "PWA Example",
+	"short_name": "PWAEXAMPLE",
+	"description": "Pwa example svelte",
 	"display": "standalone",
 	"scope": "/",
 	"orientation": "portrait",
