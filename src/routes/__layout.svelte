@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
-	import json from '$app/lang/en.json';
+	import json from '$/lang/en.json';
 	let main: HTMLElement | null = null;
 </script>
 

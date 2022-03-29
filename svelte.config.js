@@ -19,7 +19,7 @@ const svelteConfig = {
 		vite: {
 			resolve: {
 				alias: {
-					$app: resolve(__dirname, './src')
+					$: resolve(__dirname, './src')
 				}
 			}
 		},
