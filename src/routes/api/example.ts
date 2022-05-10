@@ -1,12 +1,10 @@
-import type { ServerRequest } from '@sveltejs/kit/types/hooks';
-
 export const get = () => {
 	return {
 		body: { example: 'test' }
 	};
 };
 
-export const post = (req: ServerRequest) => {
+export const post = (req: Request) => {
 	return {
 		body: req?.body || { example: 'test' }
 	};
